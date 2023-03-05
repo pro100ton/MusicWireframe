@@ -9,6 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // MARK: Properties
+    
+    var isPlaying: Bool = true {
+        didSet {
+            pauseButton.isSelected = isPlaying
+        }
+    }
+    
     // MARK: Outlets
     
     @IBOutlet var albumImageView: UIImageView!
@@ -21,9 +29,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        [reverseBackground, forwardBackground, pauseBackground].forEach { view in
+            view?.layer.cornerRadius = view!.frame.height / 2
+            view?.clipsToBounds = true
+            view?.alpha = 0.0
+        }
     }
-
-
+    
 }
 
