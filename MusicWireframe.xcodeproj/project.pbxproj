@@ -24,6 +24,7 @@
 		7D29E89E29B4932800C257C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D29E8A129B4932800C257C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D29E8A329B4932800C257C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC9379129B4E13000DB0236 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 				7D29E89B29B4932700C257C3 /* Main.storyboard */,
 				7D29E89E29B4932800C257C3 /* Assets.xcassets */,
 				7D29E8A029B4932800C257C3 /* LaunchScreen.storyboard */,
+				7DC9379129B4E13000DB0236 /* README.md */,
 				7D29E8A329B4932800C257C3 /* Info.plist */,
 			);
 			path = MusicWireframe;
